@@ -73,7 +73,6 @@
 
 
 <br>
-<br>
 
 
             <h3>2. Customer Account Widget</h3>
@@ -94,24 +93,65 @@
 <br>
 
 
-        
-            <h2>Why Choose Outsourcing?</h2>
-            <ul>
-                <li><strong>Scale Instantly:</strong> No risk. No recruiting headaches.</li>
-                <li><strong>Cost Savings:</strong> Cheaper than a single in-house employee.</li>
-                <li><strong>Expertise:</strong> Over 11 years of experience in customer care.</li>
-            </ul>
-        
-
-        
-
-<br>
-<br>
 
 
-            <h2>Ready to automate your sales and service?</h2>
-            <p>Send us a message. We will connect, set up, and launch everything for you.</p>
+
+
+
+
+
+            <div class="a0b0-2-table">
+                <div class="a0b0-2-cell">
+
+                    <h2>Why Choose Outsourcing?</h2>
+                    <ul>
+                        <li><strong>Scale Instantly:</strong> No risk. No recruiting headaches.</li>
+                        <li><strong>Cost Savings:</strong> Cheaper than a single in-house employee.</li>
+                        <li><strong>Expertise:</strong> Over 11 years of experience in customer care.</li>
+                    </ul>
+                
+                    <br>
+                    <br>
+
+                    <h2>Ready to automate your sales and service?</h2>
+                    <p>Send us a message. We will connect, set up, and launch everything for you.</p>
         
+                </div>
+                <div class="a0b0-2-cell" style=" text-align: center; ">
+
+                    <img data-src="./images/chats-1.png" id="a0b0-img-1" style="min-height: 300px;box-shadow: 0 0 0 1px rgb(0 0 0 / 30%);">
+
+                    <script>
+                    const $observer = new IntersectionObserver(($entries) => {
+                        if ($entries[0].isIntersecting) {
+                            $observer.unobserve($entries[0].target);
+
+                            let $current = 1;
+                            setInterval(() => {
+                                $current = $current % 6 + 1;
+                                document.getElementById('a0b0-img-1').src = `./images/chats-${$current}.png`;
+                            }, 3000);
+                        }
+                    });
+
+                    $observer.observe(document.getElementById('a0b0-img-1'));
+                    </script>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             <br>

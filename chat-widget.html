@@ -60,31 +60,38 @@
                 <li><strong>Hybrid Control:</strong> Switch easily between AI and live chat. You or your team can join any conversation with one click.</li>
                 <li><strong>Full History:</strong> Never lose a lead. All message history is saved for logged-in clients and guests.</li>
             </ul>
-        
+
+
+  
 
 <br>
 <br>
         
+
 
 
 
 
             <div class="a0b0-2-table">
                 <div class="a0b0-2-cell">
+
                     <h2>How it works</h2>
                     <p>Train the AI on your business data (products, style, FAQs). It installs in minutes—just copy and paste the code before the closing &lt;/body&gt; tag.</p>
             
-                    <br>
-                    <br>
 
+<br>
+<br>
+        
                     <h3>Installation is simple:</h3>
                     <ol>
                         <li>Copy the code to your site.</li>
                         <li>Register an admin account.</li>
                         <li>Customize your widget and AI settings.</li>
                     </ol>
-                </div>
-                <div class="a0b0-2-cell">
+
+
+<br>
+        
                     <code id="a0b0-widget-2">
                         &lt;script&gt;
                         window.widget2 = {
@@ -98,6 +105,29 @@
                         &lt;/script&gt;
                     </code>
                     <ul><li><span onclick="$a0b0CopyWidget2(); $a0b0CopyAlert(this);">Copy widget code</span></li></ul>
+
+
+                </div>
+                <div class="a0b0-2-cell" style=" text-align: center; ">
+
+                    <img data-src="./images/chat-1.png" id="a0b0-img-1" style="min-height: 300px;box-shadow: 0 0 0 1px rgb(0 0 0 / 30%);">
+
+                    <script>
+                    const $observer = new IntersectionObserver(($entries) => {
+                        if ($entries[0].isIntersecting) {
+                            $observer.unobserve($entries[0].target);
+
+                            let $current = 1;
+                            setInterval(() => {
+                                $current = $current % 7 + 1;
+                                document.getElementById('a0b0-img-1').src = `./images/chat-${$current}.png`;
+                            }, 3000);
+                        }
+                    });
+
+                    $observer.observe(document.getElementById('a0b0-img-1'));
+                    </script>
+
                 </div>
             </div>
 
