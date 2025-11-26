@@ -121,6 +121,14 @@ body {
     background: rgb(0 0 0 / 5%);
 }
 
+.a0b0-layer blockquote {
+    width: 100%;
+    max-width: 840px;
+    background: rgb(0 0 0 / 5%);
+    padding: 20px 20px 0 20px;
+    margin: 0 auto 20px auto;
+}
+
 .a0b0-layer img {
     max-width: 100%;
     margin: 0 auto 20px auto;
