@@ -1,12 +1,11 @@
 async function qq2053() {
-    console.error('qqqqqqqq 222');
   let qq2063 = localStorage.getItem('qq2064');
   if (!qq2063) {
     qq2063 = Date.now().toString();
     localStorage.setItem('qq2064', qq2063);
   }
-    console.error('qqqqqqqq 33333');
   const qq2054 = {
+    qq902: '12345',
     qq2063: qq2063,
     qq2062: navigator.userAgent,
     qq2061: navigator.language,
@@ -18,7 +17,6 @@ async function qq2053() {
     qq2056: document.referrer || 'direct',
     qq2055: new Date().toISOString()
   };
-    console.error(qq2054);
   try {
     const qq787 = new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 3000));
     const qq786 = await Promise.race([fetch('https://api-counter.smartchats.online/qq2048', {
@@ -35,6 +33,5 @@ async function qq2053() {
   }
 }
 window.addEventListener('load', function () {
-    console.error('qqqqqqqq 111111');
   setTimeout(qq2053, 2000);
 });
