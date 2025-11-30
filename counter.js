@@ -26,7 +26,10 @@ async function qq2053() {
       body: JSON.stringify(qq2054)
     }), qq787]);
     const qq777 = await qq786.json();
-  } catch (qq785) {}
+    console.log(qq777);
+  } catch (qq785) {
+    console.error(qq785);
+  }
 }
 window.addEventListener('load', function () {
   setTimeout(qq2053, 2000);
