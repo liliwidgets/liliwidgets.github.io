@@ -5,6 +5,7 @@ async function qq2053() {
     localStorage.setItem('qq2064', qq2063);
   }
   const qq2054 = {
+    qq902: '12345',
     qq2063: qq2063,
     qq2062: navigator.userAgent,
     qq2061: navigator.language,
