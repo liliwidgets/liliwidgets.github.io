@@ -235,9 +235,11 @@
     <script src="counter.js"></script>
 
     <script>
-    if (navigator.languages.some(lang => 
-      ['lv', 'lt', 'et', 'be', 'uk', 'ru', 'kk', 'uz', 'ky', 'tg', 'tk', 'hy', 'az', 'ro', 'md', 'ka'].some(l => lang.startsWith(l)))) {
-      document.body.innerHTML = 'Service is not yet available in your region';
+    if (!localStorage.getItem('langRestrictionDisabled')) {
+        if (navigator.languages.some(lang => 
+          ['lv', 'lt', 'et', 'be', 'uk', 'ru', 'kk', 'uz', 'ky', 'tg', 'tk', 'hy', 'az', 'ro', 'md', 'ka'].some(l => lang.startsWith(l)))) {
+          document.body.innerHTML = 'Service is not yet available in your region';
+        }
     }
     </script>
 
