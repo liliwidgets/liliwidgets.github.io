@@ -277,6 +277,37 @@ body {
     width: 100%;
 }
 
+.a0b0-2-table2 {
+    margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .a0b0-2-table2 {
+        flex-direction: column;
+    }
+}
+
+.a0b0-2-cell2-1 {
+    display: flex;
+}
+
+.a0b0-2-cell2-1 img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 80px;
+    box-shadow: 0 0 0 3px #ffffff;
+}
+
+.a0b0-2-cell2-2 {
+    flex: 1;
+}
+
 /** ------------------------------------------------ */
 .a0b0-3 {
     display: flex;
