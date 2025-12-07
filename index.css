@@ -308,13 +308,17 @@ body {
     flex: 1;
 }
 
-.a0b0-2-cell2-2 strong {
-    cursor: pointer;
+
+
+.a0b0-2-faces {padding: 0 0 0 20px;margin: 0 auto 20px auto;}
+.a0b0-2-faces img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 80px;
+    box-shadow: 0 0 0 3px #ffffff;
 }
 
-.a0b0-2-cell2-2 a {
-    color: #333333;
-}
 
 /** ------------------------------------------------ */
 .a0b0-3 {
@@ -381,4 +385,6 @@ body {
 .a0b0-4 li:last-child {
     margin: 0;
 }
+
+
 
